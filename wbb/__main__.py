@@ -163,7 +163,7 @@ keyboard = InlineKeyboardMarkup(
                 text="System Stats 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton("support", url="https://t.me/SPARKERS_SUPPORT"),
+            InlineKeyboardButton(text="support", url="https://t.me/SPARKERS_SUPPORT"),
         ],
     ]
 )
